@@ -1,4 +1,4 @@
-import { Mail, Phone, MapPin, Building2 } from 'lucide-react';
+import { Building2 } from 'lucide-react';
 
 export default function Contact() {
   return (
@@ -29,43 +29,6 @@ export default function Contact() {
                   <h4 className="font-semibold text-gray-900 mb-1">Company</h4>
                   <p className="text-gray-600">Tharwat AL LLC</p>
                   <p className="text-sm text-gray-500">Real Estate Investment & Management</p>
-                </div>
-              </div>
-
-              <div className="flex items-start space-x-4">
-                <div className="bg-emerald-100 p-3 rounded-lg">
-                  <Mail className="h-6 w-6 text-emerald-600" />
-                </div>
-                <div>
-                  <h4 className="font-semibold text-gray-900 mb-1">Email</h4>
-                  <a href="mailto:sam@tharwastaffing.com" className="text-emerald-600 hover:text-emerald-700">
-                    sam@tharwastaffing.com
-                  </a>
-                </div>
-              </div>
-
-              <div className="flex items-start space-x-4">
-                <div className="bg-emerald-100 p-3 rounded-lg">
-                  <Phone className="h-6 w-6 text-emerald-600" />
-                </div>
-                <div>
-                  <h4 className="font-semibold text-gray-900 mb-1">Phone</h4>
-                  <a href="tel:+17088880454" className="text-emerald-600 hover:text-emerald-700">
-                    (708) 888-0454
-                  </a>
-                </div>
-              </div>
-
-              <div className="flex items-start space-x-4">
-                <div className="bg-emerald-100 p-3 rounded-lg">
-                  <MapPin className="h-6 w-6 text-emerald-600" />
-                </div>
-                <div>
-                  <h4 className="font-semibold text-gray-900 mb-1">Office</h4>
-                  <p className="text-gray-600">
-                    212 W. Troy St. STE B<br />
-                    Dothan, AL 36303
-                  </p>
                 </div>
               </div>
             </div>
